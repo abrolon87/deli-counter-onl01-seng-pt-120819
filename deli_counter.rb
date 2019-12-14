@@ -1,9 +1,7 @@
 # Write your code here.
 def line(katz_deli)
-  if katz_deli
-    puts "the line is currently" + katz_deli.with_index
+  if katz_deli.length == 0
 
-  else
     puts "The line is currently empty"
   end
 end
