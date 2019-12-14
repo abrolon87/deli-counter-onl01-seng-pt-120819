@@ -1,8 +1,8 @@
 # Write your code here.
 def line(katz_deli)
   if line(katz_deli)
-    puts
-
+    puts "the line is currently" + katz_deli.each_with_index
+   
   else
     puts "The line is currently empty"
   end
